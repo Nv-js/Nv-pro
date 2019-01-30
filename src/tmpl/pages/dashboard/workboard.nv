@@ -1,0 +1,447 @@
+{% include 'src/tmpl/include/header.nv' %}
+<!--style开发模式-->
+<div id="base">
+    <div class="auto-size">
+        <div class="nv-layout nv-layout-has-side nv-layout-side-trigger nv-layout-theme-dark">
+            <div class="nv-layout-side">
+                <div class="nv-layout-side-children nv-nav-geekblue">
+                    <div class="nv-layout-logo">LOGO</div>
+                    <div class="nv-layout-icon-home">
+                        <i class="nvicon-home-empty"></i>
+                    </div>
+                    <ul class="nv-nav nv-nav-shrink nv-nav-tree" trigger="double" nv-event="click">
+                        <!--二级导航效果一-->
+                        <li class="nv-nav-item nv-nav-show">
+                            <div class="nv-nav-subtitle">
+                                <i class="nvicon-classify-empty"></i><span class="nv-nav-subset-title">dashboard</span>
+                                <i class="nvicon-arrow-down"></i>
+                            </div>
+                            <!--一级菜单-->
+                            <ul class="nv-nav-menu nv-nav-show">
+                                <li class="nv-nav-item nv-nav-selected">
+                                    <!--可以使用 <a> 标签-->
+                                    <a href="/static/tmpl/dashboard/workboard.html" class="nv-nav-subtitle">工作台</a>
+                                </li>
+                                <li class="nv-nav-item">
+                                    <div class="nv-nav-subtitle">
+                                        <span class="nv-nav-subset-title">可视化方式</span><i class="nvicon-arrow-down"></i></div>
+                                    <!--子集菜单-->
+                                    <ul class="nv-nav-leaves">
+                                        <li class="nv-nav-item">
+                                            <a class="nv-nav-subtitle" href="/static/tmpl/dashboard/view/one.html">传统布局</a>
+                                        </li>
+                                        <li class="nv-nav-item">
+                                            <a class="nv-nav-subtitle" href="/static/tmpl/dashboard/view/two.html">信息布局</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--二级导航效果一-->
+                        <li class="nv-nav-item">
+                            <div class="nv-nav-subtitle">
+                                <i class="nvicon-menu-empty"></i><span class="nv-nav-subset-title">表单</span>
+                                <i class="nvicon-arrow-down"></i>
+                            </div>
+                            <!--一级菜单-->
+                            <ul class="nv-nav-menu">
+                                <li class="nv-nav-item">
+                                    <a href="/static/tmpl/form/base.html" class="nv-nav-subtitle">基础类型</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--二级导航效果一-->
+                        <li class="nv-nav-item">
+                            <div class="nv-nav-subtitle">
+                                <i class="nvicon-doc-empty"></i><span class="nv-nav-subset-title">列表</span>
+                                <i class="nvicon-arrow-down"></i>
+                            </div>
+                            <!--一级菜单-->
+                            <ul class="nv-nav-menu">
+                                <li class="nv-nav-item">
+                                    <a href="/static/tmpl/list/filter.html" class="nv-nav-subtitle">列表筛选方式</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--二级导航效果一-->
+                        <li class="nv-nav-item">
+                            <div class="nv-nav-subtitle">
+                                <i class="nvicon-minus-empty"></i><span class="nv-nav-subset-title">详情页</span>
+                                <i class="nvicon-arrow-down"></i>
+                            </div>
+                            <!--一级菜单-->
+                            <ul class="nv-nav-menu">
+                                <li class="nv-nav-item">
+                                    <a href="/static/tmpl/detail/normal.html" class="nv-nav-subtitle">基础详情页</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--二级导航效果一-->
+                        <li class="nv-nav-item">
+                            <div class="nv-nav-subtitle">
+                                <i class="nvicon-filter-empty"></i><span class="nv-nav-subset-title">结果展示页</span>
+                                <i class="nvicon-arrow-down"></i>
+                            </div>
+                            <!--一级菜单-->
+                            <ul class="nv-nav-menu">
+                                <li class="nv-nav-item">
+                                    <a href="/static/tmpl/result/success.html" class="nv-nav-subtitle">成功</a>
+                                </li>
+                                <li class="nv-nav-item">
+                                    <a href="/static/tmpl/result/fail.html" class="nv-nav-subtitle">失败</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nv-nav-item">
+                            <div class="nv-nav-subtitle">
+                                <i class="nvicon-info-empty"></i><span class="nv-nav-subset-title">异常展示</span>
+                                <i class="nvicon-arrow-down"></i>
+                            </div>
+                            <!--一级菜单-->
+                            <ul class="nv-nav-menu">
+                                <li class="nv-nav-item">
+                                    <a href="/static/tmpl/error/403.html" class="nv-nav-subtitle">403</a>
+                                </li>
+                                <li class="nv-nav-item">
+                                    <a href="/static/tmpl/error/404.html" class="nv-nav-subtitle">404</a>
+                                </li>
+                                <li class="nv-nav-item">
+                                    <a href="/static/tmpl/error/500.html" class="nv-nav-subtitle">500</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nv-layout">
+                <div class="nv-layout-header">
+                    <div class="nv-row-flex">
+                        <div class="nv-col-2 nv-layout-trigger" id="double"><i class="nvicon-menu-empty"></i></div>
+                        <div class="nv-col-16">
+                            <ul class="nv-nav nv-nav-horizontal">
+                                <!--当前选中状态 添加nv-nav-selected-->
+                                <li class="nv-nav-item nv-nav-selected">系统管理</li>
+                                <!--默认状态-->
+                                <li class="nv-nav-item">系统规划</li>
+                                <!--有下拉菜单状态-->
+                                <li class="nv-nav-item">
+                                    物流规划 <i class="nvicon-arrow-down"></i>
+                                    <!--一级菜单-->
+                                    <ul class="nv-nav-menu">
+                                        <li class="nv-nav-item">目标规划</li>
+                                        <li class="nv-nav-item">
+                                            赋能规划<i class="nvicon-arrow-right"></i>
+                                            <!--子集菜单-->
+                                            <ul class="nv-nav-leaves">
+                                                <li class="nv-nav-item">对外</li>
+                                                <li class="nv-nav-item">商家</li>
+                                                <li class="nv-nav-item">客服</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nv-col-6">
+                            <div class="user-info">
+                                <div class="nv-dropdown nv-dropdown-right">
+                                    <div class="user-photo">
+                                        <img src="//storage.jd.com/nvstatic/images/demo2.jpg" />
+                                    </div>
+                                    <!--标题名称-->
+                                    <a class="nv-dropdown-normal" href="javascript:void(0);">Dropdown<i class="nvicon-arrow-down"></i></a>
+                                    <!--下拉菜单-->
+                                    <ul class="nv-dropdown-menu user-fix-top">
+                                        <li class="nv-dropdown-item">
+                                            <a target="_blank" href="#">Item 1</a>
+                                        </li>
+                                        <li class="nv-dropdown-item">
+                                            <a target="_blank" href="#">Item 2</a>
+                                        </li>
+                                        <li class="nv-dropdown-item nv-dropdown-disable">
+                                            Item 3（disable）
+                                        </li>
+                                        <li class="nv-dropdown-divider"></li>
+                                        <li class="nv-dropdown-item">
+                                            <a target="_blank" href="#">Item 4（normal）</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nv-layout-content">
+                    <div class="nv-breadcrumb pro-breadcrumb">
+                        <em class="nv-breadcrumb-normal"><i class="nvicon-home-empty"></i></em>
+                        <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
+                        <em class="nv-breadcrumb-normal">
+                            <a href="" class="nv-breadcrumb-link">dashboard</a>
+                        </em>
+                        <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
+                        <em class="nv-breadcrumb-normal">
+                            工作台
+                        </em>
+                    </div>
+                    <div id="content" style="min-height: calc(100vh - 106px);padding:0 24px 24px;">
+                        <div class="pro-user-info">
+                            <div class="nv-row-flex pro-user-head">
+                                <div class="nv-col-lg-16 nv-col-sm-24 nv-col-xs-24">
+                                    <div class="nv-photo  nv-photo-circle pro-photo">
+                                        <img src="//storage.jd.com/nvstatic/images/demo2.jpg" alt="">
+                                    </div>
+                                    <div class="pro-photo-description">
+                                        <h1>Zr</h1>
+                                        <p>前端开发工程师&nbsp;&nbsp;物流研发部-应用体验研发部-前端组件平台技术部</p>
+                                    </div>
+                                </div>
+                                <div class="nv-col-lg-8 nv-col-sm-24 nv-col-xs-24 pro-text-right">
+                                    <div class="pro-part">
+                                        <p>项目数量</p>
+                                        <b>54</b>
+                                    </div>
+                                    <div class="pro-part">
+                                        <p>上周综合排名</p>
+                                        <b>209</b><span>/3467</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nv-row-flex">
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24 pro-card">
+                                    <div class="pro-half">
+                                        <p>进行中的任务</p>
+                                        <b>31</b>
+                                    </div>
+                                    <div class="pro-half">
+                                        <div class="pro-mark pro-primary">
+                                            <i class="nvicon-heart-empty"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24 pro-card">
+                                    <div class="pro-half">
+                                        <p>进行中的需求</p>
+                                        <b>139</b>
+                                    </div>
+                                    <div class="pro-half">
+                                        <div class="pro-mark pro-success">
+                                            <i class="nvicon-star-empty"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24 pro-card">
+                                    <div class="pro-half">
+                                        <p>处理的缺陷</p>
+                                        <b>102</b>
+                                    </div>
+                                    <div class="pro-half">
+                                        <div class="pro-mark pro-warning">
+                                            <i class="nvicon-seting-empty"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24 pro-card">
+                                    <div class="pro-half">
+                                        <p>风险与问题</p>
+                                        <b>9</b>
+                                    </div>
+                                    <div class="pro-half">
+                                        <div class="pro-mark pro-error">
+                                            <i class="nvicon-home-empty"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro-use-content">
+                            <div class="nv-row-flex pro-card-wrap">
+                                <div class="nv-col-lg-18 nv-col-sm-24 nv-col-xs-24 pro-cart-part">
+                                    <div class="nv-card pro-card-content">
+                                        <div class="pro-card-title">项目指标</div>
+                                        <div class="nv-card-content" id="leida" style="height:380px;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-24 nv-col-xs-24 pro-cart-part">
+                                    <div class="nv-card pro-card-content">
+                                        <div class="pro-card-title">同事印象</div>
+                                        <div class="nv-card-content" id="pri"  style="height:380px;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nv-row-flex pro-card-wrap">
+                                <div class="nv-col-lg-18 nv-col-sm-24 nv-col-xs-24 pro-cart-part">
+                                    <div class="nv-card pro-card-content">
+                                        <div class="pro-card-title">消息</div>
+                                        <div class="nv-card-content" style="min-height:560px;">
+                                            <ul class="nv-timeline">
+                                                <li class="nv-timeline-item nv-timeline-green">
+                                                    <i class="nv-timeline-icon"></i>
+                                                    <div class="nv-timeline-content">
+                                                        <h3>2018-01-21</h3>
+                                                        <span>
+                                                            <p>需求待受理通知</p>
+                                                            <p>郑珺予向您提出了需求：公众号设计，需求描述如下：双十一公众号内容界面设计，请您及时响应此需求，以免影响按时响应率。</p>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="nv-timeline-item nv-timeline-warning">
+                                                    <i class="nv-timeline-icon"></i>
+                                                    <div class="nv-timeline-content">
+                                                        <h3>2018-01-13</h3>
+                                                        <span>
+                                                            <p>需求待受理通知</p>
+                                                            <p>郑珺予向您提出了需求：公众号设计，需求描述如下：双十一公众号内容界面设计，请您及时响应此需求，以免影响按时响应率。</p>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="nv-timeline-item nv-timeline-error">
+                                                    <i class="nvicon-close-circle"></i>
+                                                    <div class="nv-timeline-content">
+                                                        <h3>2018-01-11</h3>
+                                                        <span>
+                                                            <p>需求验收通过</p>
+                                                            <p>郑珺予向您提出了需求：公众号设计，需求描述如下：双十一公众号内容界面设计，请您及时响应此需求，以免影响按时响应率。</p>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="nv-timeline-item">
+                                                    <i class="nv-timeline-icon"></i>
+                                                    <div class="nv-timeline-content">
+                                                        <h3>2018-01-01</h3>
+                                                        <span>
+                                                            <p>需求已受理通知</p>
+                                                            <p>郑珺予向您提出了需求：公众号设计，需求描述如下：双十一公众号内容界面设计，请您及时响应此需求，以免影响按时响应率。</p>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="nv-timeline-item">
+                                                    <i class="nv-timeline-icon"></i>
+                                                    <div class="nv-timeline-content">
+                                                        <h3>2017-11-21</h3>
+                                                        <span>
+                                                            <p>需求已受理通知</p>
+                                                            <p>郑珺予向您提出了需求：公众号设计，需求描述如下：双十一公众号内容界面设计，请您及时响应此需求，以免影响按时响应率。</p>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-24 nv-col-xs-24 pro-cart-part">
+                                    <div class="nv-card pro-card-content" style="height: 315px;margin-bottom: 10px;">
+                                        <div class="pro-card-title">最新招聘</div>
+                                        <div class="nv-card-content pro-recruit">
+                                            <ul>
+                                                <li class="nv-row-flex">
+                                                    <div class="nv-col-16"><a href="#">Java工程师</a></div>
+                                                    <div class="nv-col-8 pro-card-time">3月19日</div>
+                                                </li>
+                                                <li class="nv-row-flex">
+                                                    <div class="nv-col-16"><a href="#">安卓工程师</a></div>
+                                                    <div class="nv-col-8 pro-card-time">3月19日</div>
+                                                </li>
+                                                <li class="nv-row-flex">
+                                                    <div class="nv-col-16"><a href="#">UI高级设计师</a></div>
+                                                    <div class="nv-col-8 pro-card-time">3月19日</div>
+                                                </li>
+                                                <li class="nv-row-flex">
+                                                    <div class="nv-col-16"><a href="#">用户体验研究员</a></div>
+                                                    <div class="nv-col-8 pro-card-time">3月19日</div>
+                                                </li>
+                                                <li class="nv-row-flex">
+                                                    <div class="nv-col-16"><a href="#">高级设计师</a></div>
+                                                    <div class="nv-col-8 pro-card-time">3月19日</div>
+                                                </li>
+                                                <li class="nv-row-flex">
+                                                    <div class="nv-col-16"><a href="#">高级设计师</a></div>
+                                                    <div class="nv-col-8 pro-card-time">3月19日</div>
+                                                </li>
+                                                <li class="nv-row-flex">
+                                                    <div class="nv-col-16"><a href="#">高级设计师</a></div>
+                                                    <div class="nv-col-8 pro-card-time">3月19日</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="nv-card pro-card-content" style="height:310px">
+                                        <div class="pro-card-title">团队成员</div>
+                                        <div class="nv-card-content pro-recruit" >
+                                            <li class="nv-row-flex">
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo1.jpg" alt="">
+                                                    </span>
+                                                    老铁司令
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo2.jpg" alt="">
+                                                    </span>
+                                                    古怪哈哈
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo3.jpg" alt="">
+                                                    </span>
+                                                    PRO
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo2.jpg" alt="">
+                                                    </span>
+                                                    人民公社
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo3.jpg" alt="">
+                                                    </span>
+                                                    属性
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo3.jpg" alt="">
+                                                    </span>
+                                                    属性
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo1.jpg" alt="">
+                                                    </span>
+                                                    铁哥
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo2.jpg" alt="">
+                                                    </span>
+                                                    老铁
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo1.jpg" alt="">
+                                                    </span>
+                                                    铁哥
+                                                </div>
+                                                <div class="nv-col-12 pro-photo-line">
+                                                    <span class="nv-photo nv-photo-circle pro-photo-item">
+                                                       <img src="//storage.jd.com/nvstatic/images/demo2.jpg" alt="">
+                                                    </span>
+                                                    老铁
+                                                </div>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'src/tmpl/include/footer.nv' %}

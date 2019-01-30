@@ -1,0 +1,102 @@
+//入口文件
+@import "./base";
+//可以使用默认主题和色彩算法模块了
+html,body,#base,.auto-size{
+  display: block;
+  width:100%;
+  height:100%;
+}
+.@{nv-prefix}-layout{
+  min-height:100vh;
+  overflow-x: hidden;
+  .@{nv-prefix}-layout-side{
+    background: #fafafa;
+  }
+  .@{nv-prefix}-layout-icon-home{
+    color:@grey-8;
+  }
+  .@{nv-prefix}-layout-logo{
+    background: #fff;
+    margin: 0;
+    width:100%;
+    height:64px;
+    text-align: center;
+    line-height: 64px;
+  }
+  .@{nv-prefix}-layout-header{
+    .@{nv-prefix}-nav{
+      background: #fff;
+    }
+  }
+}
+.user-info{
+  width: 170px;
+  float: right;
+  box-shadow: -1px -1px 5px rgba(136, 136, 136, 0.15);
+  .user-photo{
+    width:33px;
+    height:33px;
+    display: inline-block;
+    overflow:hidden;
+    border-radius: 17px;
+    vertical-align: middle;
+    margin: 0 8px 0 24px;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .user-fix-top{
+    top:65px;
+  }
+}
+.@{nv-prefix}-form{
+  display: block;
+  color: @grey-8;
+  width:100%;
+  .@{nv-prefix}-form-label{
+    padding-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+  }
+  .@{nv-prefix}-form-item{
+    display: flex;
+    line-height: 30px;
+    padding: 0 16px;
+    margin-bottom:24px;
+  }
+  .@{nv-prefix}-form-area{
+    flex: 1 1 0%;
+    vertical-align: middle;
+  }
+  .@{nv-prefix}-input-group{
+    margin: 0;
+    input{
+      border-radius: @btn-border-radius-base;
+      background: none;
+      border: 1px solid @btn-default-border;
+    }
+  }
+  .@{nv-prefix}-form-btn-group{
+    padding: 0 16px;
+    .@{nv-prefix}-btn{
+      margin-bottom: 10px;
+    }
+  }
+}
+.table-list{
+  padding-top: 30px;
+}
+.@{nv-prefix}-nav-tree .@{nv-prefix}-nav-item{
+  a{
+    color:@grey-8;
+  }
+  .@{nv-prefix}-nav-subtitle{
+    &:hover{
+      a{
+        color:@primary-6;
+      }
+    }
+  }
+}

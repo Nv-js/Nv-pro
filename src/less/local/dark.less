@@ -1,0 +1,352 @@
+//入口文件
+@import "./base";
+//可以使用默认主题和色彩算法模块了
+html,body,#base,.auto-size{
+  display: block;
+  width:100%;
+  height:100%;
+  font-size: 14px;
+}
+.i403{
+  padding-top: 10%;
+  text-align: center;
+  img{
+    width:200px;
+    margin: 0 auto;
+  }
+  p{
+    padding: 5px 0 0 0;
+    color: @grey-6;
+  }
+}
+.i404{
+  padding-top: 10%;
+  text-align: center;
+  img{
+    width:350px;
+    margin: 0 auto;
+  }
+  p{
+    padding: 5px 0 0 0;
+    color: @grey-6;
+  }
+}
+.i500{
+  padding-top: 6%;
+  text-align: center;
+  img{
+    width:240px;
+    margin: 0 auto;
+  }
+  p{
+    padding: 5px 0 0 0;
+    color: @grey-6;
+  }
+}
+.@{nv-prefix}-layout{
+  min-height:100vh;
+  overflow-x: hidden;
+  .@{nv-prefix}-layout-icon-home{
+    color:@grey-1;
+  }
+  .@{nv-prefix}-layout-logo{
+    background: none;
+    color:#fff;
+    margin: 0;
+    width:100%;
+    height:64px;
+    text-align: center;
+    line-height: 64px;
+  }
+  .@{nv-prefix}-layout-header{
+    .@{nv-prefix}-nav{
+      background: #fff;
+    }
+  }
+}
+.user-info{
+  width: 170px;
+  float: right;
+  box-shadow: -1px -1px 5px rgba(136, 136, 136, 0.15);
+  padding-right: 10px;
+  .user-photo{
+    width:33px;
+    height:33px;
+    display: inline-block;
+    overflow:hidden;
+    border-radius: 17px;
+    vertical-align: middle;
+    margin: 0 8px 0 24px;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .nv-dropdown-menu{
+    width:165px;
+  }
+  .user-fix-top{
+    top:65px;
+  }
+}
+.@{nv-prefix}-form{
+  display: block;
+  color: @grey-8;
+  width:100%;
+  .@{nv-prefix}-form-label{
+    padding-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+  }
+  .@{nv-prefix}-form-item{
+    display: flex;
+    line-height: 30px;
+    padding: 0 16px;
+    margin-bottom:24px;
+  }
+  .@{nv-prefix}-form-area{
+    flex: 1 1 0%;
+    vertical-align: middle;
+  }
+  .@{nv-prefix}-input-group{
+    margin: 0;
+    input{
+      border-radius: @btn-border-radius-base;
+      background: none;
+      border: 1px solid @btn-default-border;
+    }
+  }
+  .@{nv-prefix}-form-btn-group{
+    padding: 0 16px;
+    .@{nv-prefix}-btn{
+      margin-bottom: 10px;
+    }
+  }
+}
+.table-list{
+  padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: @screen-phone ) {
+  //默认手机
+  //平板
+  .nv-form .nv-form-item-title{
+    text-align: left;
+  }
+  .nv-layout{
+    position: relative;
+    .nv-layout-side{
+      position: absolute;
+      left:0;
+      top:0;
+      bottom:0;
+      z-index: 500;
+    }
+    .nv-bgground-shadow{
+      display: block;
+    }
+  }
+  .nv-bgground-shadow{
+    position: fixed;
+    left:200px;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 499;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: @grey-7;
+  }
+  .nv-bgground-show{
+    opacity: 1;
+    display: block;
+  }
+  .nv-layout-collapsedClassName{
+    width:0;
+    flex: 0 0 0;
+    overflow:hidden;
+    .nv-bgground-shadow{
+      opacity: 0;
+      display: none;
+    }
+  }
+  .nv-layout > .nv-layout{
+    position: relative;
+    z-index: 600;
+  }
+  .nv-layout > .nv-layout-low{
+    position: relative;
+    z-index: 400;
+  }
+  .nv-dropdown-normal{
+    display: none;
+  }
+  .user-info{
+    width:80px;
+    .nv-dropdown{
+      width:80px;
+    }
+  }
+
+
+  .nv-layout-header{
+    .nv-nav{
+      display: none;
+    }
+    .nv-nav-block{
+      display: block;
+      position: fixed;
+      left:0;
+      top:58px;
+      right:0;
+      z-index: 600;
+    }
+    .nv-nav-item{
+      display: block;
+      background: @grey-1;
+    }
+    .nv-nav-selected{
+      background: @primary-6;
+    }
+    [class*=" nvicon-"],[class^="nvicon-"]{
+      &:hover{
+        color:@primary-6;
+      }
+    }
+  }
+
+}
+@media (min-width: @screen-xs-min ){
+  //平板
+  .nv-layout{
+    position: relative;
+    .nv-layout-side{
+      position: absolute;
+      left:0;
+      top:0;
+      bottom:0;
+      z-index: 500;
+    }
+    .nv-bgground-shadow{
+      display: block;
+    }
+  }
+  .nv-bgground-shadow{
+    position: fixed;
+    left:200px;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 499;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: @grey-7;
+  }
+  .nv-bgground-show{
+    opacity: 1;
+    display: block;
+  }
+  .nv-layout-collapsedClassName{
+    width:0;
+    flex: 0 0 0;
+    overflow:hidden;
+    .nv-bgground-shadow{
+      opacity: 0;
+      display: none;
+    }
+  }
+  .nv-layout > .nv-layout{
+    position: relative;
+    z-index: 600;
+  }
+  .nv-layout > .nv-layout-low{
+    position: relative;
+    z-index: 400;
+  }
+  .nv-dropdown-normal{
+    display: none;
+  }
+  .user-info{
+    width:80px;
+    .nv-dropdown{
+      width:80px;
+    }
+  }
+  .nvicon-classify-empty{
+    display: none;
+  }
+
+
+
+
+
+}
+@media (min-width: @screen-lg-min ){
+  //大桌面显示器
+  .nv-layout-header{
+    .nv-nav{
+      display: block;
+    }
+    .nv-nav-item{
+      display: inline-block;
+      background: @grey-1;
+    }
+    .nv-nav-selected{
+      background: @primary-6;
+    }
+  }
+
+
+
+  .nv-layout-collapsedClassName{
+    width:64px;
+    flex: 0 0 64px;
+    overflow: visible;
+  }
+  .nv-layout{
+    .nv-bgground-show{
+      display: none;
+    }
+    .nv-layout-side{
+      position: static;
+    }
+  }
+  .nv-dropdown-normal{
+    display: inline-block;
+  }
+  .user-info{
+    width:auto;
+    .nv-dropdown{
+      width:auto;
+    }
+  }
+}
+.nv-layout-side{
+  background:#0a0e5c; ;
+}
+
+
+
+
+
+
+
