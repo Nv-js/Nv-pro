@@ -1,0 +1,55 @@
+<div class="nv-row-flex">
+    <div class="nv-col-2 nv-layout-trigger" id="double"><i class="nvicon-menu-empty"></i></div>
+    <div class="nv-col-16">
+        <ul class="nv-nav nv-nav-horizontal">
+            <!--当前选中状态 添加nv-nav-selected-->
+            <li class="nv-nav-item nv-nav-selected">系统管理</li>
+            <!--默认状态-->
+            <li class="nv-nav-item">系统规划</li>
+            <!--有下拉菜单状态-->
+            <li class="nv-nav-item">
+                物流规划 <i class="nvicon-arrow-down"></i>
+                <!--一级菜单-->
+                <ul class="nv-nav-menu">
+                    <li class="nv-nav-item">目标规划</li>
+                    <li class="nv-nav-item">
+                        赋能规划<i class="nvicon-arrow-right"></i>
+                        <!--子集菜单-->
+                        <ul class="nv-nav-leaves">
+                            <li class="nv-nav-item">对外</li>
+                            <li class="nv-nav-item">商家</li>
+                            <li class="nv-nav-item">客服</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="nv-col-6">
+        <div class="user-info">
+            <div class="nv-dropdown nv-dropdown-right">
+                <div class="user-photo">
+                    <img src="//storage.jd.com/nvstatic/images/demo2.jpg" />
+                </div>
+                <!--标题名称-->
+                <a class="nv-dropdown-normal" href="javascript:void(0);">Dropdown<i class="nvicon-arrow-down"></i></a>
+                <!--下拉菜单-->
+                <ul class="nv-dropdown-menu user-fix-top">
+                    <li class="nv-dropdown-item">
+                        <a target="_blank" href="#">Item 1</a>
+                    </li>
+                    <li class="nv-dropdown-item">
+                        <a target="_blank" href="#">Item 2</a>
+                    </li>
+                    <li class="nv-dropdown-item nv-dropdown-disable">
+                        Item 3（disable）
+                    </li>
+                    <li class="nv-dropdown-divider"></li>
+                    <li class="nv-dropdown-item">
+                        <a target="_blank" href="#">Item 4（normal）</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

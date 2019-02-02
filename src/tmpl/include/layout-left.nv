@@ -1,0 +1,110 @@
+<div class="nv-layout-side-children nv-nav-geekblue">
+    <div class="nv-layout-logo">LOGO</div>
+    <div class="nv-layout-icon-home">
+        <i class="nvicon-home-empty"></i>
+    </div>
+    <ul class="nv-nav nv-nav-shrink nv-nav-tree" trigger="double" nv-event="click">
+        <!--二级导航效果一-->
+        <li class="nv-nav-item nv-nav-show">
+            <div class="nv-nav-subtitle">
+                <i class="nvicon-classify-empty"></i><span class="nv-nav-subset-title">dashboard</span>
+                <i class="nvicon-arrow-down"></i>
+            </div>
+            <!--一级菜单-->
+            <ul class="nv-nav-menu nv-nav-show">
+                <li class="nv-nav-item nv-nav-selected">
+                    <!--可以使用 <a> 标签-->
+                    <a href="/dist/html/dashboard/workboard.html" class="nv-nav-subtitle">工作台</a>
+                </li>
+                <li class="nv-nav-item">
+                    <div class="nv-nav-subtitle">
+                        <span class="nv-nav-subset-title">可视化方式</span><i class="nvicon-arrow-down"></i></div>
+                    <!--子集菜单-->
+                    <ul class="nv-nav-leaves">
+                        <li class="nv-nav-item">
+                            <a class="nv-nav-subtitle" href="/dist/html/dashboard/view/one.html">传统布局</a>
+                        </li>
+                        <li class="nv-nav-item">
+                            <a class="nv-nav-subtitle" href="/dist/html/dashboard/view/two.html">信息布局</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <!--二级导航效果一-->
+        <li class="nv-nav-item">
+            <div class="nv-nav-subtitle">
+                <i class="nvicon-menu-empty"></i><span class="nv-nav-subset-title">表单</span>
+                <i class="nvicon-arrow-down"></i>
+            </div>
+            <!--一级菜单-->
+            <ul class="nv-nav-menu">
+                <li class="nv-nav-item">
+                    <a href="/dist/html/form/base.html" class="nv-nav-subtitle">基础类型</a>
+                </li>
+            </ul>
+        </li>
+        <!--二级导航效果一-->
+        <li class="nv-nav-item">
+            <div class="nv-nav-subtitle">
+                <i class="nvicon-doc-empty"></i><span class="nv-nav-subset-title">列表</span>
+                <i class="nvicon-arrow-down"></i>
+            </div>
+            <!--一级菜单-->
+            <ul class="nv-nav-menu">
+                <li class="nv-nav-item">
+                    <a href="/dist/html/list/filter.html" class="nv-nav-subtitle">列表筛选方式</a>
+                </li>
+            </ul>
+        </li>
+        <!--二级导航效果一-->
+        <li class="nv-nav-item">
+            <div class="nv-nav-subtitle">
+                <i class="nvicon-minus-empty"></i><span class="nv-nav-subset-title">详情页</span>
+                <i class="nvicon-arrow-down"></i>
+            </div>
+            <!--一级菜单-->
+            <ul class="nv-nav-menu">
+                <li class="nv-nav-item">
+                    <a href="/dist/html/detail/normal.html" class="nv-nav-subtitle">基础详情页</a>
+                </li>
+            </ul>
+        </li>
+        <!--二级导航效果一-->
+        <li class="nv-nav-item">
+            <div class="nv-nav-subtitle">
+                <i class="nvicon-filter-empty"></i><span class="nv-nav-subset-title">结果展示页</span>
+                <i class="nvicon-arrow-down"></i>
+            </div>
+            <!--一级菜单-->
+            <ul class="nv-nav-menu">
+                <li class="nv-nav-item">
+                    <a href="/dist/html/result/success.html" class="nv-nav-subtitle">成功</a>
+                </li>
+                <li class="nv-nav-item">
+                    <a href="/dist/html/result/fail.html" class="nv-nav-subtitle">失败</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nv-nav-item">
+            <div class="nv-nav-subtitle">
+                <i class="nvicon-info-empty"></i><span class="nv-nav-subset-title">异常展示</span>
+                <i class="nvicon-arrow-down"></i>
+            </div>
+            <!--一级菜单-->
+            <ul class="nv-nav-menu">
+                <li class="nv-nav-item">
+                    <a href="/dist/html/error/403.html" class="nv-nav-subtitle">403</a>
+                </li>
+                <li class="nv-nav-item">
+                    <a href="/dist/html/error/404.html" class="nv-nav-subtitle">404</a>
+                </li>
+                <li class="nv-nav-item">
+                    <a href="/dist/html/error/500.html" class="nv-nav-subtitle">500</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+

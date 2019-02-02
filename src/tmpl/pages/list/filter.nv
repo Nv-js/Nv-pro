@@ -1,0 +1,229 @@
+{% include 'src/tmpl/include/header.nv' %}
+<!--style开发模式-->
+<div id="base">
+    <div class="auto-size">
+        <div class="nv-layout nv-layout-has-side nv-layout-side-trigger nv-layout-theme-dark">
+            <div class="nv-layout-side">
+                {% include 'src/tmpl/include/layout-left.nv' %}
+            </div>
+            <div class="nv-layout">
+                <div class="nv-layout-header">
+                    {% include 'src/tmpl/include/layout-header.nv' %}
+                </div>
+                <div class="nv-layout-content">
+                    <div class="nv-breadcrumb pro-breadcrumb">
+                        <em class="nv-breadcrumb-normal"><i class="nvicon-home-empty"></i></em>
+                        <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
+                        <em class="nv-breadcrumb-normal">
+                            <a href="" class="nv-breadcrumb-link">列表页</a>
+                        </em>
+                        <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
+                        <em class="nv-breadcrumb-normal">
+                            列表筛选方式一
+                        </em>
+                    </div>
+                    <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding: 24px 0; margin: 0 24px;">
+                        <!--内容区域-->
+                        <form class="nv-form">
+                            <div class="nv-row-flex">
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            主营参数：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="请输入参数" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <div class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            地区选择：
+                                        </span>
+                                        <span class="nv-form-area">
+                                             <select name="country" class="nv-select">
+                                                <option value="">请选择一个城市</option>
+                                                <option value="010">北京</option>
+                                                <option value="021">上海</option>
+                                                <option value="0571">杭州</option>
+                                             </select>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            主营收入：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="输入营业收入" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            单位收入：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="输入单价收入" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="nv-row-flex">
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            附属参数：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="请输入附属参数" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <div class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            附属区域：
+                                        </span>
+                                        <span class="nv-form-area">
+                                             <select name="country" class="nv-select">
+                                                <option value="">请选择一个城市</option>
+                                                <option value="010">北京</option>
+                                                <option value="021">上海</option>
+                                                <option value="0571">杭州</option>
+                                             </select>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            附属收入：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="输入附属营业收入" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            附属单价：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="输入附属单价收入" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            统计参数：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="输入统计参数" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            统计单价：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="输入统计单价" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            统计类型：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="输入统计类型" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="nv-col-lg-6 nv-col-sm-12 nv-col-xs-24">
+                                    <label class="nv-form-item">
+                                        <span class="nv-form-label">
+                                            统计质量：
+                                        </span>
+                                        <span class="nv-form-area">
+                                            <input type="text" placeholder="输入统计质量" class="nv-input nv-input-clear">
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="nv-row-flex">
+                                <div class="nv-col-24 nv-form-btn-group">
+                                    <input type="submit" class="nv-btn nv-btn-primary" value="查询" />
+                                    <input type="button" class="nv-btn nv-btn-primary" id="newModal" value="新建" />
+                                    <input type="button" class="nv-btn nv-btn-default" id="newImport" value="导入" />
+                                    <input type="button" class="nv-btn nv-btn-default" id="newExport" value="导出" />
+                                    <input type="button" class="nv-btn nv-btn-default" id="newDelete" value="删除" />
+                                </div>
+                            </div>
+                        </form>
+                        <div class="table-list">
+                            <div class="nv-table-wrap">
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Age</th>
+                                        <th>Country</th>
+                                        <th class="nv-table-text-right">Price</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>001</td>
+                                        <td>Otto Clay</td>
+                                        <td>23</td>
+                                        <td>China</td>
+                                        <td class="nv-table-text-right">23.00</td>
+                                        <td><a>Edit</a><a>Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>002</td>
+                                        <td>Otto Clay</td>
+                                        <td>23</td>
+                                        <td>China</td>
+                                        <td class="nv-table-text-right">23.00</td>
+                                        <td><a>Edit</a><a>Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>003</td>
+                                        <td>Otto Clay</td>
+                                        <td>23</td>
+                                        <td>China</td>
+                                        <td class="nv-table-text-right">23.00</td>
+                                        <td><a>Edit</a><a>Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>004</td>
+                                        <td>Otto Clay</td>
+                                        <td>23</td>
+                                        <td>China</td>
+                                        <td class="nv-table-text-right">23.00</td>
+                                        <td><a>Edit</a><a>Delete</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!--内容区域-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'src/tmpl/include/footer.nv' %}

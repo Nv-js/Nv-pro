@@ -2,7 +2,7 @@ const G         = require('gulp'),
       tmpl      = require('./config/tmpl.config'),
       server    = require('./config/server.config'),
       less      = require('./config/less.config'),
-      js        = require('./config/js.config')
+      js        = require('./config/js.config'),
       watch     = require('./config/watcher.config')
 
 

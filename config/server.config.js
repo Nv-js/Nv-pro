@@ -4,8 +4,11 @@ const G          = require('gulp'),
 
 
 function server (){
-    G.src('./')
-        .pipe(webserver(paths.server))
+    //
+    setTimeout(function(){
+        G.src('./')
+            .pipe(webserver(paths.server))
+    },1000)
 }
 
 

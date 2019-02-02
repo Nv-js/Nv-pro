@@ -10,8 +10,7 @@ module.exports = {
         livereload: true,
         directoryListing: true,
         port: '9898',
-        open: true,
-        open: "./dist/"
+        open: "/index.html"
     },
     less:{
         watchSrc:['src/less/**/*.less'],

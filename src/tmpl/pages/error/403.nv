@@ -1,0 +1,37 @@
+{% include 'src/tmpl/include/header.nv' %}
+<!--style开发模式-->
+<div id="base">
+    <div class="auto-size">
+        <div class="nv-layout nv-layout-has-side nv-layout-side-trigger nv-layout-theme-dark">
+            <div class="nv-layout-side">
+                {% include 'src/tmpl/include/layout-left.nv' %}
+            </div>
+            <div class="nv-layout">
+                <div class="nv-layout-header">
+                    {% include 'src/tmpl/include/layout-header.nv' %}
+                </div>
+                <div class="nv-layout-content">
+                    <div class="nv-breadcrumb pro-breadcrumb">
+                        <em class="nv-breadcrumb-normal"><i class="nvicon-home-empty"></i></em>
+                        <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
+                        <em class="nv-breadcrumb-normal">
+                            <a href="" class="nv-breadcrumb-link">异常展示</a>
+                        </em>
+                        <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
+                        <em class="nv-breadcrumb-normal">
+                            403
+                        </em>
+                    </div>
+                    <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding: 24px 0; margin: 0 24px;">
+                        <div class="i403">
+                            <img src="//storage.jd.com/pro-flex/static/403.png" />
+                            <p>您还没有权限访问哦~</p>
+                            <p>You do not have permission to access.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'src/tmpl/include/footer.nv' %}

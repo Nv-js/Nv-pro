@@ -1,0 +1,105 @@
+{% include 'src/tmpl/include/header.nv' %}
+<!--style开发模式-->
+<div id="base">
+    <div class="auto-size">
+        <div class="nv-layout nv-layout-has-side nv-layout-side-trigger nv-layout-theme-dark">
+            <div class="nv-layout-side">
+                {% include 'src/tmpl/include/layout-left.nv' %}
+            </div>
+            <div class="nv-layout">
+                <div class="nv-layout-header">
+                    {% include 'src/tmpl/include/layout-header.nv' %}
+                </div>
+                <div class="nv-layout-content">
+                    <div class="nv-breadcrumb pro-breadcrumb">
+                        <em class="nv-breadcrumb-normal"><i class="nvicon-home-empty"></i></em>
+                        <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
+                        <em class="nv-breadcrumb-normal">
+                            <a href="" class="nv-breadcrumb-link">表单</a>
+                        </em>
+                        <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
+                        <em class="nv-breadcrumb-normal">
+                            基础类型
+                        </em>
+                    </div>
+                    <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding:40px 0 24px; margin: 0 24px;">
+                        <form class="nv-form pro-form-center">
+                            <label class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">事业部 </span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <input type="text" placeholder="请输入事业部名称" class="nv-input">
+                                </div>
+                            </label>
+                            <label class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">简称 </span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <input type="text" placeholder="请输入简称" class="nv-input">
+                                </div>
+                            </label>
+                            <div class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">区域 </span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <select name="country" class="nv-select">
+                                        <option value="">请选择一个城市</option>
+                                        <option value="010">北京</option>
+                                        <option value="021">上海</option>
+                                        <option value="0571">杭州</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">生效日期</span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <div class="nv-input-group">
+                                        <input type="text" id="dateTime" readonly placeholder="请选择生效时间" class="nv-input">
+                                        <span class="nv-input-addon">
+                                            <i class="nvicon-calendar-empty"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <label class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">详细地址 </span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <input type="text" placeholder="请输入详细地址信息" class="nv-input">
+                                </div>
+                            </label>
+                            <label class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">联系方式 </span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <input type="text" placeholder="请输入个人信息，电话/手机号码/邮箱" class="nv-input">
+                                </div>
+                            </label>
+                            <label class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">发运类型 </span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <input type="radio" name="trans" class="nv-radio" value="0" title="寄件" checked="checked">&nbsp;
+                                    <input type="radio" name="trans" class="nv-radio" value="1" title="收件">&nbsp;
+                                    <input type="radio" name="trans" class="nv-radio" value="1" title="寄/收件">
+                                </div>
+                            </label>
+                            <label class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">增值服务 </span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <input type="checkbox" name="service" class="nv-checkbox" value="0" title="签单返还">&nbsp;
+                                    <input type="checkbox" name="service" class="nv-checkbox" value="1" title="货到付款" checked="true">
+                                </div>
+                            </label>
+                            <label class="nv-row-flex nv-row-flex-between nv-form-item">
+                                <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">备注 </span>
+                                <div class="nv-form-item-control nv-col-lg-18 nv-col-sm-18 nv-col-xs-24">
+                                    <textarea class="nv-textarea" maxlength="100" placeholder="请在此处输入需求信息，最多100字"></textarea>
+                                </div>
+                            </label>
+                            <div class="pro-form-btn-group">
+                                <input type="submit" class="nv-btn nv-btn-primary" value="提交" />&nbsp;
+                                <input type="reset" class="nv-btn nv-btn-default" value="重置" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'src/tmpl/include/footer.nv' %}
