@@ -1,1 +1,2 @@
 
+Nv.add("./js/list/list_filter",function(nv,$,modal){var tools=nv.tools,dom=nv.dom;var list={init:function init(config){this.events.btnToolsEvent();},options:{},events:{btnToolsEvent:function btnToolsEvent(){var prompt=modal.init(".nv-modal-prompt"),imports=modal.init(".nv-modal-import");$("#newModal").on("click",function(){prompt.show();});$("#newImport").on("click",function(){imports.show();});}},eventsFn:{},ajax:{}};list.init();return{};},{requires:["jquery","modal"]});

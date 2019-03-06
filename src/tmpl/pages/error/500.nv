@@ -15,27 +15,18 @@
                         <em class="nv-breadcrumb-normal"><i class="nvicon-home-empty"></i></em>
                         <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
                         <em class="nv-breadcrumb-normal">
-                            <a href="" class="nv-breadcrumb-link">结果展示</a>
+                            <a href="" class="nv-breadcrumb-link">异常展示</a>
                         </em>
                         <i class="nvicon-arrow-right nv-breadcrumb-icon"></i>
                         <em class="nv-breadcrumb-normal">
-                            成功
+                            500
                         </em>
                     </div>
                     <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding: 24px 0; margin: 0 24px;">
-                        <div class="nv-submit-status">
-                            <i class="nvicon-ok-circle nv-submit-icon-ok"></i>
-                            <p class="nv-submit-result-title">提交成功</p>
-                            <p>如果需要向用户展示较为复杂的信息，可采用此展现方式，在下方灰色区域中展示提交详情，如果是较为简单的信息，建议采用全局提示。</p>
-                            <div class="nv-submit-result-content">
-                                <p>商品1京东商品编码 : 1234556789012345</p>
-                                <p>商品名称 : ECCO 2018年春季新款</p>
-                                <p>事业部 : ECCO 上海</p>
-                                <p>商品条码 : 1234556789012345</p>
-                                <p>商家商品条码 : 1234556789012345</p>
-                                <p>商品品相 : 一等品</p>
-                            </div>
-                            <a href="#" class="nv-btn nv-btn-default">返回列表</a>
+                        <div class="i403">
+                            <img src="//storage.jd.com/pro-flex/static/500.png" />
+                            <p>对不起，您访问的页面有些问题，请稍后再试~</p>
+                            <p>There are some wrong with the page , please try again later.</p>
                         </div>
                     </div>
                 </div>

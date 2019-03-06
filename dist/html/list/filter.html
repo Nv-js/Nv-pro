@@ -403,19 +403,112 @@
         </div>
     </div>
 </div>
+<!--新建内容模态框-->
+<div class="nv-modal fade nv-modal-prompt nv-modal-lg">
+    <div class="nv-modal-dialog">
+        <div class="nv-modal-content">
+            <div class="nv-modal-header">
+                <p class="nv-modal-title">
+                    <span>新建内容</span>
+                    <i class="nvicon-close nv-modal-close"></i>
+                </p>
+            </div>
+            <div class="nv-modal-body">
+                <form class="nv-form">
+                    <div class="nv-row-flex">
+                        <div class="nv-col-lg-12 nv-col-sm-24 nv-col-xs-24">
+                            <label class="nv-form-item">
+                                <span class="nv-form-label">
+                                    主营参数：
+                                </span>
+                                <span class="nv-form-area">
+                                   <div class="nv-input-group"><input type="text" placeholder="请输入参数" class="nv-input nv-input-clear"><i class="nvicon-close-circle"></i></div>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="nv-col-lg-12 nv-col-sm-24 nv-col-xs-24">
+                            <div class="nv-form-item">
+                                <span class="nv-form-label">
+                                    地区选择：
+                                </span>
+                                <span class="nv-form-area">
+                                   <select name="country" class="nv-select nv-select-hide">
+                                        <option value="">请选择一个城市</option>
+                                        <option value="010">北京</option>
+                                        <option value="021">上海</option>
+                                        <option value="0571">杭州</option>
+                                   </select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="nv-col-lg-12 nv-col-sm-24 nv-col-xs-24">
+                            <label class="nv-form-item">
+                                <span class="nv-form-label">
+                                单个价格：
+                                </span>
+                                <span class="nv-form-area">
+                                   <input type="text" placeholder="请输入价格" class="nv-input nv-input-clear">
+                                </span>
+                            </label>
+                        </div>
+                        <div class="nv-col-lg-12 nv-col-sm-24 nv-col-xs-24">
+                            <label class="nv-form-item">
+                                <span class="nv-form-label">
+                                信息数量：
+                                </span>
+                                <span class="nv-form-area">
+                                   <input type="text" placeholder="请输入数量" class="nv-input nv-input-clear">
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="nv-modal-footer">
+                <input type="button"  class="nv-btn nv-btn-default nv-modal-btn nv-modal-cancel" value="取消"/>
+                <input type="button"  class="nv-btn nv-btn-primary nv-modal-btn nv-modal-enter" value="保存"/>
+            </div>
+        </div>
+    </div>
+</div>
+<!--导入模态框-->
+<div class="nv-modal fade nv-modal-import">
+    <div class="nv-modal-dialog">
+        <div class="nv-modal-content">
+            <div class="nv-modal-header">
+                <p class="nv-modal-title">
+                    <span>导入信息</span>
+                    <i class="nvicon-close nv-modal-close"></i>
+                </p>
+            </div>
+            <div class="nv-modal-body">
+                <input type="file" accept="" class="nv-upload nv-upload-manual">
+                <ul class="nv-upload-list">
+                    <li>
+                        <i class="nvicon-accessory-empty"></i><span>Accessory1.png</span><i class="delete nvicon-close"></i>
+                    </li>
+                </ul>
+                <div class="nv-upload-btn">
+                    <button class="nv-btn nv-btn-primary nv-btn-disable">Upload</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script type="text/javascript" language="javascript" src="//storage.360buyimg.com/v2.0.0/nv.min.js"></script>
 <script type="text/javascript">
     //配置方法
     Nv.config({
         //配置plugin_modules的目录；
-        baseUrl:"/static/",
+        baseUrl:"/dist/",
         //开发模式，默认关闭；
-        requestTime:true
+        development:true
     })
     //初始入口，Nv各个模块准备就绪后调用；
     Nv.ready(function(){
-        Nv.use("./js/pro","./js/dashboard/workboard");
+        Nv.use("./js/pro","./js/list/list_filter");
     })
 </script>
+
 </body>
 </html>

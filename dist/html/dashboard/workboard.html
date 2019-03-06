@@ -465,14 +465,15 @@
     //配置方法
     Nv.config({
         //配置plugin_modules的目录；
-        baseUrl:"/static/",
+        baseUrl:"/dist/",
         //开发模式，默认关闭；
-        requestTime:true
+        development:true
     })
     //初始入口，Nv各个模块准备就绪后调用；
     Nv.ready(function(){
         Nv.use("./js/pro","./js/dashboard/workboard");
     })
 </script>
+
 </body>
 </html>

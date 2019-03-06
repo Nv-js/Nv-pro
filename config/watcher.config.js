@@ -23,7 +23,7 @@ function watcher(){
                 less.less()
                 break
             case '.js'  :
-                js.compile(path)
+                js.compile()
                 break
 
         }
