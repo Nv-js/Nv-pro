@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b4dff51-13ee-4d96-8ef2-f807840ee8f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/html/detail/detail.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tmpl/pages/error/404.nv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tmpl/pages/error/500.nv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/watcher.config.js" afterPath="$PROJECT_DIR$/config/watcher.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/dashboard/view/one.html" afterPath="$PROJECT_DIR$/dist/html/dashboard/view/one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/dashboard/view/two.html" afterPath="$PROJECT_DIR$/dist/html/dashboard/view/two.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/dashboard/workboard.html" afterPath="$PROJECT_DIR$/dist/html/dashboard/workboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/detail/normal.html" afterPath="$PROJECT_DIR$/dist/html/detail/normal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/error/403.html" afterPath="$PROJECT_DIR$/dist/html/error/403.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/error/404.html" afterPath="$PROJECT_DIR$/dist/html/error/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/error/500.html" afterPath="$PROJECT_DIR$/dist/html/error/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/form/base.html" afterPath="$PROJECT_DIR$/dist/html/form/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/list/filter.html" afterPath="$PROJECT_DIR$/dist/html/list/filter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/result/fail.html" afterPath="$PROJECT_DIR$/dist/html/result/fail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/result/success.html" afterPath="$PROJECT_DIR$/dist/html/result/success.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/dashboard/one.js" afterPath="$PROJECT_DIR$/dist/js/dashboard/one.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/dashboard/workboard.js" afterPath="$PROJECT_DIR$/dist/js/dashboard/workboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/form/base.js" afterPath="$PROJECT_DIR$/dist/js/form/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/list/list_filter.js" afterPath="$PROJECT_DIR$/dist/js/list/list_filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/pro.js" afterPath="$PROJECT_DIR$/dist/js/pro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/dashboard/one.js" afterPath="$PROJECT_DIR$/src/js/dashboard/one.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/dashboard/two.js" afterPath="$PROJECT_DIR$/src/js/dashboard/two.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/dashboard/workboard.js" afterPath="$PROJECT_DIR$/src/js/dashboard/workboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/form/base.js" afterPath="$PROJECT_DIR$/src/js/form/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/list/list_filter.js" afterPath="$PROJECT_DIR$/src/js/list/list_filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/pro.js" afterPath="$PROJECT_DIR$/src/js/pro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/include/footer.nv" afterPath="$PROJECT_DIR$/src/tmpl/include/footer.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/dashboard/view/one.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/dashboard/view/one.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/dashboard/view/two.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/dashboard/view/two.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/dashboard/workboard.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/dashboard/workboard.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/detail/normal.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/detail/normal.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/error/403.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/error/403.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/form/base.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/form/base.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/list/filter.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/list/filter.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/result/fail.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/result/fail.nv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/pages/result/success.nv" afterPath="$PROJECT_DIR$/src/tmpl/pages/result/success.nv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,19 +17,42 @@
       <file leaf-file-name="normal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/html/detail/normal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="211" column="50" lean-forward="true" selection-start-line="211" selection-start-column="50" selection-end-line="211" selection-end-column="50" />
+            <state relative-caret-position="3587">
+              <caret line="211" column="50" lean-forward="false" selection-start-line="211" selection-start-column="50" selection-end-line="211" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="two.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="two.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/dashboard/two.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="160" column="22" lean-forward="true" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
+            <state relative-caret-position="2720">
+              <caret line="160" column="22" lean-forward="false" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pro.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/pro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -85,6 +72,7 @@
       <find>Zr</find>
       <find>code.png</find>
       <find>zr</find>
+      <find>left-nav-ipad</find>
     </findStrings>
     <replaceStrings>
       <replace>Nv</replace>
@@ -107,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/js/.babelrc" />
         <option value="$PROJECT_DIR$/babel.config.js" />
         <option value="$PROJECT_DIR$/dist/js/test/test.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -158,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/tmpl/pages/error/500.nv" />
         <option value="$PROJECT_DIR$/dist/html/detail/normal.html" />
         <option value="$PROJECT_DIR$/src/js/dashboard/two.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -178,8 +166,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="23" />
+    <option name="x" value="2095" />
+    <option name="y" value="229" />
     <option name="width" value="1430" />
     <option name="height" value="877" />
   </component>
@@ -281,9 +269,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,17 +281,6 @@
             <path>
               <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,110 +288,13 @@
               <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,15 +438,17 @@
       <workItem from="1549172268694" duration="2073000" />
       <workItem from="1549457760287" duration="767000" />
       <workItem from="1551766138974" duration="820000" />
-      <workItem from="1551853232669" duration="2588000" />
+      <workItem from="1551853232669" duration="3426000" />
+      <workItem from="1552013231246" duration="70000" />
+      <workItem from="1552031200066" duration="99000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77600000" />
+    <option name="totallyTimeSpent" value="78607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1430" height="877" extended-state="0" />
+    <frame x="2095" y="229" width="1430" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -582,7 +463,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2966752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23304473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24025974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -621,7 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.dev/js/list/list_filter.js" />
     <entry file="file://$PROJECT_DIR$/.dev/js/test/test.js" />
     <entry file="file://$PROJECT_DIR$/src/js/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -721,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,15 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/pro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1891">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="67" column="6" lean-forward="false" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6001">
           <caret line="353" column="0" lean-forward="true" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,10 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1551854429913" expanded="true" signature="26779:26867" ph="{&quot;baseUrl&quot;: &quot;/static/&quot;...}" />
-            <marker date="1551854429913" expanded="true" signature="26966:27002" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="298" column="9" lean-forward="false" selection-start-line="298" selection-start-column="9" selection-end-line="298" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="183" column="6" lean-forward="true" selection-start-line="183" selection-start-column="6" selection-end-line="183" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="187" column="45" lean-forward="false" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="174" column="41" lean-forward="false" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="115" column="44" lean-forward="true" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="320" column="46" lean-forward="false" selection-start-line="320" selection-start-column="46" selection-end-line="320" selection-end-column="46" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="43" column="109" lean-forward="false" selection-start-line="43" selection-start-column="109" selection-end-line="43" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="36" column="109" lean-forward="false" selection-start-line="36" selection-start-column="109" selection-end-line="36" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="36" column="109" lean-forward="false" selection-start-line="36" selection-start-column="109" selection-end-line="36" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,23 +804,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="381" column="0" lean-forward="false" selection-start-line="381" selection-start-column="0" selection-end-line="381" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/html/detail/normal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="211" column="50" lean-forward="true" selection-start-line="211" selection-start-column="50" selection-end-line="211" selection-end-column="50" />
+        <state relative-caret-position="3587">
+          <caret line="211" column="50" lean-forward="false" selection-start-line="211" selection-start-column="50" selection-end-line="211" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/dashboard/two.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="160" column="22" lean-forward="true" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
+        <state relative-caret-position="2720">
+          <caret line="160" column="22" lean-forward="false" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/pro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
