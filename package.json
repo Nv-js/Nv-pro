@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "It's base on Nv engine and Nv design. Please on star for help you.",
   "main": "index.js",
-  "repository": "https://github.com/guguaihaha/Nv-pro.git",
+  "repository": "https://github.com/Nv-js/Nv-pro.git",
   "author": "zhangjinglin <zhangjinglin@aliyun.com>",
   "license": "MIT",
   "private": null,
