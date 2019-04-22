@@ -249,12 +249,12 @@
   overflow: hidden;
   display: inline-block;
   padding: 0 10px;
-  color: #96b1ff;
-  border: 1px dashed #96b1ff;
+  color: #1a1818;
+  border: 1px dashed #1a1818;
   cursor: pointer;
 }
 .pro-short-btn-add:hover {
-  color: #4363f4;
+  color: rgba(0, 0, 0, 0.65);
 }
 .pro-breadcrumb {
   padding-left: 25px;
@@ -524,5 +524,5 @@ body,
   color: rgba(0, 0, 0, 0.65);
 }
 .nv-nav-tree .nv-nav-item .nv-nav-subtitle:hover a {
-  color: #4363f4;
+  color: rgba(0, 0, 0, 0.65);
 }

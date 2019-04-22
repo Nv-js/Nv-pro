@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta  name="keywords" content="Pro,PRO" />
     <meta name="description" content="Zr PRO by Zr design" />
-    <title>Zr PRO by Zr design</title>
-    <link type="text/css" rel="stylesheet" href="//storage.360buyimg.com/v2.0.0/nv.min.css" />
-    <link type="text/css" rel="stylesheet" href="/dist/css/dark.min.css" />
+    <title>Nv PRO</title>
+    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/nv.grey.min.css" />
+    <link type="text/css" rel="stylesheet" href="/dist/css/grey.min.css" />
 </head>
 
 <body>

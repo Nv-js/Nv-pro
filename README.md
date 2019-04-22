@@ -19,6 +19,7 @@
 ```html
     <!--css样式请放在head标签内部-->
     <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/nv.min.css" />
+    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/pro/dark.min.css" />
 ```
 
 ***切记，`data-theme`必须添加，否则组件库无法识别当前的主题色***
@@ -30,25 +31,29 @@
 ```html
     <!--css样式请放在head标签内部-->
     <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/nv.red.min.css" />
+    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/pro/red.min.css" />
 ```
 
-**幽暗黑** （预计4月底上线）
-
-```html
-    <!--css样式请放在head标签内部-->
-    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/nv.black.min.css" />
-```
-
-**深空灰** （预计4月底上线）
-
-```html
-    <!--css样式请放在head标签内部-->
-    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/nv.grey.min.css" />
-```
-
-**活力橙** （预计4月底上线）
+**活力橙**
 
 ```html
     <!--css样式请放在head标签内部-->
     <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/nv.orange.min.css" />
+    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/pro/orange.min.css" />
+```
+**深空灰** 
+
+```html
+    <!--css样式请放在head标签内部-->
+    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/nv.grey.min.css" />
+    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/pro/grey.min.css" />
+```
+
+
+**幽暗黑，全套暗黑联盟** （预计4月底上线）
+
+```html
+    <!--css样式请放在head标签内部-->
+    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/nv.black.min.css" />
+    <link type="text/css" rel="stylesheet" data-theme href="//storage.360buyimg.com/v2.0.0/pro/black.min.css" />
 ```

@@ -14,7 +14,7 @@ module.exports = {
     },
     less:{
         watchSrc:['src/less/**/*.less'],
-        src:['src/less/local/dark.less','src/less/local/light.less'],
+        src:['src/less/local/*.less'],
         dest:'dist/css'
     },
     js:{
