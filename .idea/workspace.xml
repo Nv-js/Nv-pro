@@ -2,32 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b4dff51-13ee-4d96-8ef2-f807840ee8f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/com/theme/grey.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/com/theme/orange.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/com/theme/red.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/local/grey.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/local/orange.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/local/red.less" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/dark.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/dashboard/view/one.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/dashboard/view/two.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/dashboard/workboard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/detail/normal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/error/403.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/error/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/error/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/form/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/list/filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/result/fail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/html/result/success.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/dashboard/one.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/dashboard/two.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/dashboard/workboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/dashboard/worldCloud.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/form/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/list/list_filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/mock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/pro.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/paths.config.js" afterPath="$PROJECT_DIR$/config/paths.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/dark.css" afterPath="$PROJECT_DIR$/dist/css/dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/dark.min.css" afterPath="$PROJECT_DIR$/dist/css/dark.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/light.css" afterPath="$PROJECT_DIR$/dist/css/light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/light.min.css" afterPath="$PROJECT_DIR$/dist/css/light.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/dashboard/view/one.html" afterPath="$PROJECT_DIR$/dist/html/dashboard/view/one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/dashboard/view/two.html" afterPath="$PROJECT_DIR$/dist/html/dashboard/view/two.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/dashboard/workboard.html" afterPath="$PROJECT_DIR$/dist/html/dashboard/workboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/detail/normal.html" afterPath="$PROJECT_DIR$/dist/html/detail/normal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/error/403.html" afterPath="$PROJECT_DIR$/dist/html/error/403.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/error/404.html" afterPath="$PROJECT_DIR$/dist/html/error/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/error/500.html" afterPath="$PROJECT_DIR$/dist/html/error/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/form/base.html" afterPath="$PROJECT_DIR$/dist/html/form/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/list/filter.html" afterPath="$PROJECT_DIR$/dist/html/list/filter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/result/fail.html" afterPath="$PROJECT_DIR$/dist/html/result/fail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/result/success.html" afterPath="$PROJECT_DIR$/dist/html/result/success.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/com/color/colors.less" afterPath="$PROJECT_DIR$/src/less/com/color/colors.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/local/base.less" afterPath="$PROJECT_DIR$/src/less/local/base.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmpl/include/header.nv" afterPath="$PROJECT_DIR$/src/tmpl/include/header.nv" />
     </list>
@@ -40,12 +40,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="475">
-                <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+              <first_editor relative-caret-position="354">
+                <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -66,8 +66,8 @@
       <file leaf-file-name="dark.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/less/local/dark.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
       <file leaf-file-name="grey.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/less/com/theme/grey.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,24 +86,14 @@
       <file leaf-file-name="base.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/less/local/base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="51">
+              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="red.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="red.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/less/com/theme/red.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -113,21 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="red.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/less/local/red.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2282">
-              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.nv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tmpl/include/header.nv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -168,6 +148,7 @@
       <find>pro-primary</find>
       <find>primary</find>
       <find>-mark</find>
+      <find>nv-nav-selected</find>
     </findStrings>
     <replaceStrings>
       <replace>Nv</replace>
@@ -239,9 +220,9 @@
         <option value="$PROJECT_DIR$/src/less/local/grey.less" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/less/com/color/colors.less" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/tmpl/include/header.nv" />
         <option value="$PROJECT_DIR$/src/less/local/base.less" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -261,9 +242,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="46" />
+    <option name="width" value="1402" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -364,25 +346,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
@@ -417,25 +389,11 @@
               <item name="less" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nv-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nv-pro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -588,15 +546,26 @@
       <workItem from="1555399370300" duration="430000" />
       <workItem from="1555653857255" duration="3484000" />
       <workItem from="1555670343535" duration="2325000" />
-      <workItem from="1555901576027" duration="1639000" />
+      <workItem from="1555901576027" duration="1987000" />
+      <workItem from="1556111910583" duration="936000" />
+      <workItem from="1557296210830" duration="1189000" />
     </task>
+    <task id="LOCAL-00001" summary="modify lots of pages">
+      <created>1555922279890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555922279890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86664000" />
+    <option name="totallyTimeSpent" value="89137000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -610,7 +579,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1943734" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26575932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27292264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -641,6 +610,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="modify lots of pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify lots of pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,6 +903,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="134" column="23" lean-forward="false" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/local/grey.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/com/color/colors.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="354">
+            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tmpl/include/header.nv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -943,32 +951,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/local/red.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2282">
+        <state relative-caret-position="51">
           <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/local/grey.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/local/dark.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/com/theme/grey.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/local/dark.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/local/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -978,41 +986,6 @@
         <state relative-caret-position="85">
           <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/com/color/colors.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tmpl/include/header.nv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/local/base.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="475">
-            <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

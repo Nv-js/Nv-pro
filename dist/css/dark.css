@@ -249,12 +249,12 @@
   overflow: hidden;
   display: inline-block;
   padding: 0 10px;
-  color: #1a1818;
-  border: 1px dashed #1a1818;
+  color: #96b1ff;
+  border: 1px dashed #96b1ff;
   cursor: pointer;
 }
 .pro-short-btn-add:hover {
-  color: rgba(0, 0, 0, 0.65);
+  color: #4363f4;
 }
 .pro-breadcrumb {
   padding-left: 25px;
@@ -638,11 +638,11 @@ body,
     background: #ffffff;
   }
   .nv-layout-header .nv-nav-selected {
-    background: rgba(0, 0, 0, 0.65);
+    background: #4363f4;
   }
   .nv-layout-header [class*=" nvicon-"]:hover,
   .nv-layout-header [class^="nvicon-"]:hover {
-    color: rgba(0, 0, 0, 0.65);
+    color: #4363f4;
   }
 }
 @media (min-width: 480px) {
@@ -718,7 +718,7 @@ body,
     background: #ffffff;
   }
   .nv-layout-header .nv-nav-selected {
-    background: rgba(0, 0, 0, 0.65);
+    background: #4363f4;
   }
   .nv-layout-collapsedClassName {
     width: 64px;
