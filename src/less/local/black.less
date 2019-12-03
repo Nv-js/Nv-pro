@@ -1,0 +1,436 @@
+//入口文件
+@import "./base";
+//可以使用默认主题和色彩算法模块了
+html,body,#base,.auto-size{
+  display: block;
+  width:100%;
+  height:100%;
+  font-size: 14px;
+}
+.i403{
+  padding-top: 10%;
+  text-align: center;
+  img{
+    width:200px;
+    margin: 0 auto;
+  }
+  p{
+    padding: 5px 0 0 0;
+    color: @grey-5;
+  }
+}
+.i404{
+  padding-top: 10%;
+  text-align: center;
+  img{
+    width:350px;
+    margin: 0 auto;
+  }
+  p{
+    padding: 5px 0 0 0;
+    color: @grey-5;
+  }
+}
+.i500{
+  padding-top: 6%;
+  text-align: center;
+  img{
+    width:240px;
+    margin: 0 auto;
+  }
+  p{
+    padding: 5px 0 0 0;
+    color: @grey-5;
+  }
+}
+.@{nv-prefix}-layout{
+  min-height:100vh;
+  overflow-x: hidden;
+  background: @body-primary-bg;
+  .@{nv-prefix}-layout-icon-home{
+    color:@font-color;
+  }
+  .@{nv-prefix}-layout-logo{
+    background: none;
+    color:#fff;
+    margin: 0;
+    width:100%;
+    height:64px;
+    text-align: center;
+    line-height: 64px;
+  }
+  .@{nv-prefix}-layout-header{
+    .@{nv-prefix}-nav{
+      background: @top-header-bg;
+    }
+    .@{nv-prefix}-nav-item{
+      background: @top-header-bg;
+      color: @font-color;
+      &.@{nv-prefix}-nav-selected{
+        background: @selected-bg;
+        color: @selected-color;
+      }
+      &:hover{
+        background: @selected-bg ;
+        color: @selected-color;
+      }
+    }
+  }
+}
+
+.user-info{
+  width: 170px;
+  float: right;
+  box-shadow: -1px -1px 5px rgba(136, 136, 136, 0.15);
+  padding-right: 10px;
+  .user-photo{
+    width:33px;
+    height:33px;
+    display: inline-block;
+    overflow:hidden;
+    border-radius: 17px;
+    vertical-align: middle;
+    margin: 0 8px 0 24px;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .@{nv-prefix}-dropdown-menu{
+    width:165px;
+  }
+  .user-fix-top{
+    top:65px;
+  }
+}
+.@{nv-prefix}-form{
+  display: block;
+  color: @font-color;
+  width:100%;
+  .@{nv-prefix}-form-label{
+    padding-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+  }
+  .@{nv-prefix}-form-item{
+    display: flex;
+    line-height: 30px;
+    padding: 0 16px;
+    margin-bottom:24px;
+  }
+  .@{nv-prefix}-form-area{
+    flex: 1 1 0%;
+    vertical-align: middle;
+  }
+  .@{nv-prefix}-input-group{
+    margin: 0;
+    input{
+      border-radius: @btn-border-radius-base;
+      background: none;
+      border: 1px solid @btn-default-border;
+    }
+  }
+  .@{nv-prefix}-form-btn-group{
+    padding: 0 16px;
+    .@{nv-prefix}-btn{
+      margin-bottom: 10px;
+    }
+  }
+}
+.table-list{
+  padding-top: 30px;
+}
+.@{nv-prefix}-layout-theme-dark{
+  .@{nv-prefix}-nav-geekblue{
+    .@{nv-prefix}-nav-tree{
+      background: none;
+      .@{nv-prefix}-nav-selected{
+        color: @selected-color;
+        background: @selected-bg ;
+        border-right:2px solid @selected-border-color;
+        a{
+          color: @selected-color;
+        }
+      }
+    }
+    .@{nv-prefix}-nav-collapsed{
+      .@{nv-prefix}-nav-menu{
+        .@{nv-prefix}-nav-subtitle{
+          background: @left-nav-bg;
+          color: @font-color;
+          &:hover{
+            background: @primary-8;
+            color: @font-color;
+          }
+        }
+        .@{nv-prefix}-nav-item{
+          background: @primary-6;
+          color: @font-color;
+          a{
+            color: @font-color;
+            &:hover{
+              background: @selected-bg!important;
+            }
+          }
+        }
+        .@{nv-prefix}-nav-selected{
+          background: @selected-bg!important;
+          color: @selected-color!important;
+          a{
+            background: @selected-bg!important;
+            color: @selected-color!important;
+          }
+        }
+      }
+    }
+    .@{nv-prefix}-nav-tree{
+      .@{nv-prefix}-nav-subtitle{
+        color: @font-color;
+        &:hover{
+          background: @selected-bg;
+          border-right:2px solid @selected-border-color;
+          color: @selected-color!important;;
+        }
+      }
+    }
+  }
+}
+
+.@{nv-prefix}-layout-side-trigger .@{nv-prefix}-layout-header{
+  background: @top-header-bg;
+  .@{nv-prefix}-layout-trigger{
+    color: @font-color;
+    &:hover{
+      color: @font-sub-color ;
+    }
+  }
+}
+.@{nv-prefix}-nav-horizontal{
+
+}
+.@{nv-prefix}-content{
+  background: @content-bg;
+  color: @font-color;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: @screen-phone ) {
+  //默认手机
+  //平板
+  .@{nv-prefix}-form .@{nv-prefix}-form-item-title{
+    text-align: left;
+  }
+  .@{nv-prefix}-layout{
+    position: relative;
+    .@{nv-prefix}-layout-side{
+      position: absolute;
+      left:0;
+      top:0;
+      bottom:0;
+      z-index: 500;
+    }
+    .@{nv-prefix}-bgground-shadow{
+      display: block;
+    }
+  }
+  .@{nv-prefix}-bgground-shadow{
+    position: fixed;
+    left:200px;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 499;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: @grey-7;
+  }
+  .@{nv-prefix}-bgground-show{
+    opacity: 1;
+    display: block;
+  }
+  .@{nv-prefix}-layout-collapsedClassName{
+    width:0;
+    flex: 0 0 0;
+    overflow:hidden;
+    .@{nv-prefix}-bgground-shadow{
+      opacity: 0;
+      display: none;
+    }
+  }
+  .@{nv-prefix}-layout > .@{nv-prefix}-layout{
+    position: relative;
+    z-index: 600;
+  }
+  .@{nv-prefix}-layout > .@{nv-prefix}-layout-low{
+    position: relative;
+    z-index: 400;
+  }
+  .@{nv-prefix}-dropdown-normal{
+    display: none;
+  }
+  .user-info{
+    width:80px;
+    .@{nv-prefix}-dropdown{
+      width:80px;
+    }
+  }
+
+
+  .@{nv-prefix}-layout-header{
+    .@{nv-prefix}-nav{
+      display: none;
+    }
+
+    .@{nv-prefix}-nav-block{
+      display: block;
+      position: fixed;
+      left:0;
+      top:58px;
+      right:0;
+      z-index: 600;
+    }
+    .@{nv-prefix}-nav-item{
+      display: block;
+      background: @font-color;
+    }
+    .@{nv-prefix}-nav-selected{
+      background: @selected-bg;
+    }
+    [class*=" nvicon-"],[class^="nvicon-"]{
+      color: @grey-5;
+      &:hover{
+        color: @font-color;
+      }
+    }
+  }
+
+}
+@media (min-width: @screen-xs-min ){
+  //平板
+  .@{nv-prefix}-layout{
+    position: relative;
+    .@{nv-prefix}-layout-side{
+      position: absolute;
+      left:0;
+      top:0;
+      bottom:0;
+      z-index: 500;
+    }
+    .@{nv-prefix}-bgground-shadow{
+      display: block;
+    }
+  }
+  .@{nv-prefix}-bgground-shadow{
+    position: fixed;
+    left:200px;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 499;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: @grey-7;
+  }
+  .@{nv-prefix}-bgground-show{
+    opacity: 1;
+    display: block;
+  }
+  .@{nv-prefix}-layout-collapsedClassName{
+    width:0;
+    flex: 0 0 0;
+    overflow:hidden;
+    .@{nv-prefix}-bgground-shadow{
+      opacity: 0;
+      display: none;
+    }
+  }
+  .@{nv-prefix}-layout > .@{nv-prefix}-layout{
+    position: relative;
+    z-index: 600;
+  }
+  .@{nv-prefix}-layout > .@{nv-prefix}-layout-low{
+    position: relative;
+    z-index: 400;
+  }
+  .@{nv-prefix}-dropdown-normal{
+    display: none;
+  }
+  .user-info{
+    width:80px;
+    .@{nv-prefix}-dropdown{
+      width:80px;
+    }
+  }
+  .nvicon-classify-empty{
+    display: none;
+  }
+
+
+
+
+
+}
+@media (min-width: @screen-lg-min ){
+  //大桌面显示器
+  .@{nv-prefix}-layout-header{
+    .@{nv-prefix}-nav{
+      display: block;
+    }
+    .@{nv-prefix}-nav-item{
+      display: inline-block;
+      background: @font-color;
+    }
+    .@{nv-prefix}-nav-selected{
+      background: @selected-bg;
+    }
+  }
+
+
+
+  .@{nv-prefix}-layout-collapsedClassName{
+    width:64px;
+    flex: 0 0 64px;
+    overflow: visible;
+  }
+  .@{nv-prefix}-layout{
+    .@{nv-prefix}-bgground-show{
+      display: none;
+    }
+    .@{nv-prefix}-layout-side{
+      position: static;
+    }
+  }
+  .@{nv-prefix}-dropdown-normal{
+    display: inline-block;
+  }
+  .user-info{
+    width:auto;
+    .@{nv-prefix}-dropdown{
+      width:auto;
+    }
+  }
+}
+
+.@{nv-prefix}-layout-side{
+  background:@left-nav-bg;
+}
+
+
+
+
+
+
+

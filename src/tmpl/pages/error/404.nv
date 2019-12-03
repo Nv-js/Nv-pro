@@ -22,9 +22,9 @@
                             404
                         </em>
                     </div>
-                    <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding: 24px 0; margin: 0 24px;">
+                    <div id="content" class="nv-content" style="min-height: calc(100vh - 106px);padding: 24px 0; margin: 0 24px;">
                         <div class="i403">
-                            <img src="//storage.jd.com/pro-flex/static/404.png" />
+                            <img src="//storage.360buyimg.com/pro-flex/static/404.png" />
                             <p>对不起，您访问的页面已经逃离地球了～~</p>
                             <p>Sorry, the page you visited has escaped from the earth.</p>
                         </div>

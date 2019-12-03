@@ -22,7 +22,7 @@
                             列表筛选方式一
                         </em>
                     </div>
-                    <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding: 24px 0; margin: 0 24px;">
+                    <div id="content" class="nv-content" style="min-height: calc(100vh - 106px);padding: 24px 0; margin: 0 24px;">
                         <!--内容区域-->
                         <form class="nv-form">
                             <div class="nv-row-flex">

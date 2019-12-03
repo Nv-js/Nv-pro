@@ -22,7 +22,7 @@
                             基础类型
                         </em>
                     </div>
-                    <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding:40px 0 24px; margin: 0 24px;">
+                    <div id="content" class="nv-content" style="min-height: calc(100vh - 106px);padding:40px 0 24px; margin: 0 24px;">
                         <form class="nv-form pro-form-center">
                             <label class="nv-row-flex nv-row-flex-between nv-form-item">
                                 <span class="nv-form-item-title nv-col-lg-5 nv-col-sm-5 nv-col-xs-24">事业部 </span>

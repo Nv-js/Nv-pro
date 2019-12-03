@@ -1,9 +1,9 @@
 //入口文件,此处需要修改主题模块对应的全局样式才能生效
-//@import "../com/theme/grey";
-//@import "../com/theme/orange";
-//@import "../com/theme/red";
-@import "../com/theme/default";
+@import "../com/theme/black";
 //可以使用默认主题和色彩算法模块了
+h1,h2,h3,h4,h5{
+  color: @font-color;
+}
 .base-ft30{
   font-size: 30px;
 }
@@ -27,7 +27,7 @@
   overflow: hidden;
 }
 .base-grey{
-  color: @grey-8;
+  color: @grey-3;
 }
 .pro-pdl5{
   padding-right: 12px;
@@ -38,7 +38,8 @@
   margin-bottom: 10px;
 }
 .pro-user-head{
-  background: @grey-1;
+  background: @primary-6;
+  color: @grey-1;
   min-height:124px;
   margin-bottom: 2px;
 }
@@ -51,9 +52,12 @@
 .pro-photo-description{
   margin-left: 107px;
   padding: 20px 0 0 23px;
+  h1,h2,h3,h4,h5{
+    color: @font-color;
+  }
   p{
     padding-top: 10px;
-    color: @grey-7;
+    color: @font-color;
   }
 }
 .pro-part{
@@ -66,16 +70,17 @@
     border-right: 0;
   }
   p{
-    color: @grey-7;
+    color: @font-color;
     padding-bottom: 5px;
   }
   b{
     font-size:24px;
     font-weight: normal;
+    color: @font-sub-color ;
   }
   span{
     font-size: 16px;
-    color: @grey-7;
+    color: @font-sub-color;
   }
 }
 .pro-text-right{
@@ -90,15 +95,15 @@
 }
 .pro-half{
   min-height: 110px;
-  background: @grey-1;
+  background: @primary-6;
   padding: 24px 0 0 24px;
   width:50%;
   float: left;
-  color: @grey-9;
+  color: @font-color;
   b{
     font-size: 34px;
     font-weight: normal;
-    color: @grey-10;
+    color: @font-sub-color;
   }
 }
 .pro-mark{
@@ -142,9 +147,9 @@
   font-weight: bold;
   [class*=" nvicon-"], [class^=nvicon-]{
     font-size: 14px;
-    color: @grey-7;
+    color: @font-sub-color;
     &:hover{
-      color: @grey-8;
+      color: @font-color;
     }
   }
 }
@@ -158,6 +163,8 @@
 .pro-card-content{
   padding: 25px;
   border: 0;
+  background: @primary-6;
+  color: @font-color;
   //margin-top: 12px;
 }
 .pro-recruit{
@@ -167,14 +174,14 @@
     line-height: 35px;
   }
   a{
-    color: @grey-8;
+    color: @font-sub-color;
     &:hover{
-      color: @grey-9;
+      color: @font-color;
     }
   }
 }
 .pro-card-time{
-  color:@grey-6
+  color:@font-sub-color
 }
 .pro-photo-item{
   vertical-align: middle;
@@ -182,13 +189,14 @@
 }
 .pro-photo-line{
   margin-bottom: 15px;
+  color: @font-sub-color;
 }
 
 
 .pro-total{
   padding: 24px;
   height: 140px;
-  color: @grey-1;
+  color: @font-color;
   border-radius: 4px;
   b{
     font-weight: normal;
@@ -207,12 +215,12 @@
   padding: 24px 0;
   [class*=" nvicon-"], [class^=nvicon-]{
     font-size: 12px;
-    color: @grey-7;
+    color: @grey-5;
   }
   a{
-    color: @grey-8;
+    color: @grey-5;
     &:hover{
-      color: @grey-9;
+      color: @font-color;
     }
   }
   .pro-list-li{
@@ -233,16 +241,23 @@
   margin-bottom: 10px;
   height:23px;
   overflow: hidden;
+  color: @grey-5;
+  a{
+    color: @grey-5;
+    &:hover{
+      color: @font-color;
+    }
+  }
   i{
     cursor: pointer;
     display: none;
     color: @grey-5;
   }
   &:hover{
-    color: @grey-7;
+    color: @font-color;
     i{
       display: inline-block;
-      color: @grey-7;
+      color: @font-color;
     }
   }
 }
@@ -252,16 +267,27 @@
   overflow: hidden;
   display: inline-block;
   padding: 0 10px;
-  color: @primary-4;
-  border: 1px dashed @primary-4;
+  color: @grey-5;
+  border: 1px dashed @grey-5;
   cursor: pointer;
   &:hover{
-    color: @primary-6;
+    color: @font-color;
   }
 }
-.pro-breadcrumb{
-  padding-left: 25px;
+.@{nv-prefix}-layout-content{
+  .pro-breadcrumb{
+    padding-left: 25px;
+    color: @font-color;
+    a{
+      color: @font-color;
+      &:hover{
+        color: @font-sub-color;
+      }
+    }
+  }
 }
+
+
 
 .pro-form-center{
   max-width: 550px;
@@ -280,6 +306,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: @font-color;
 }
 
 
@@ -290,11 +317,11 @@
      min-width: 80px;
      text-align: right;
      display: inline-block;
-     color: @grey-9;
+     color: @font-color;
    }
   .pro-description-right{
     display: inline-block;
-    color: @grey-7;
+    color: @grey-5;
   }
 }
 .pro-barcode{
@@ -305,7 +332,7 @@
 .pro-description-title{
   font-size: @font-size-lg;
   font-weight: bold;
-  color: @grey-9;
+  color: @font-color;
   margin-bottom: 10px;
   padding-left: 3px;
 }
@@ -320,11 +347,11 @@
 }
 
 
-.nv-submit-status{
+.@{nv-prefix}-submit-status{
   text-align: center;
   padding-top: 20px;
-  color: @grey-8;
-  .nv-submit-icon-ok{
+  color: @grey-5;
+  .@{nv-prefix}-submit-icon-ok{
     font-size: 60px;
     color: #6CC902;
   }
@@ -332,25 +359,24 @@
     font-size: 60px;
     color: #e2231a;
   }
-  .nv-submit-result-title{
+  .@{nv-prefix}-submit-result-title{
     font-size: 24px;
     margin: 8px 0 16px 0;
   }
-  .nv-submit-result-content{
-    background: @grey-3;
+  .@{nv-prefix}-submit-result-content{
     margin: 10px 20px 35px;
     padding: 33px 10px;
     line-height: 40px;
   }
-  .nv-submit-text-left{
+  .@{nv-prefix}-submit-text-left{
     text-align: left;
     padding:33px 40px;
   }
 }
-.nv-tab .nv-tab-header.pro-tabs{
+.@{nv-prefix}-tab .@{nv-prefix}-tab-header.pro-tabs{
   padding: 20px 10px 0;
   height:60px;
-  .nv-tab-item{
+  .@{nv-prefix}-tab-item{
     min-width: 60px;
     margin-right: 10px;
   }
@@ -359,7 +385,12 @@
   width:100%;
   height:40px;
 }
-
+a{
+  color: @blue-6;
+  &:hover{
+    color: @blue-5;
+  }
+}
 
 @media ( max-width: @screen-phone ) {
   //默认手机

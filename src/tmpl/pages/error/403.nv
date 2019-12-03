@@ -22,9 +22,9 @@
                             403
                         </em>
                     </div>
-                    <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding: 24px 0; margin: 0 24px;">
+                    <div id="content" class="nv-content" style="min-height: calc(100vh - 106px);padding: 24px 0; margin: 0 24px;">
                         <div class="i403">
-                            <img src="//storage.jd.com/pro-flex/static/403.png" />
+                            <img src="//storage.360buyimg.com/pro-flex/static/403.png" />
                             <p>您还没有权限访问哦~</p>
                             <p>You do not have permission to access.</p>
                         </div>

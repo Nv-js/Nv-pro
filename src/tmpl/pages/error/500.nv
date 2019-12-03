@@ -22,9 +22,9 @@
                             500
                         </em>
                     </div>
-                    <div id="content" style="min-height: calc(100vh - 106px);background: #fff;padding: 24px 0; margin: 0 24px;">
+                    <div id="content"  class="nv-content" style="min-height: calc(100vh - 106px);padding: 24px 0; margin: 0 24px;">
                         <div class="i403">
-                            <img src="//storage.jd.com/pro-flex/static/500.png" />
+                            <img src="//storage.360buyimg.com/pro-flex/static/500.png" />
                             <p>对不起，您访问的页面有些问题，请稍后再试~</p>
                             <p>There are some wrong with the page , please try again later.</p>
                         </div>
